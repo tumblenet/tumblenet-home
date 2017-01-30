@@ -10,11 +10,9 @@ layout: null
 		<link href="https://s.gravatar.com/avatar/4160471662ebb2e6eaa2a2c752e48b0d" rel="icon" type="image/x-icon">
 		<title>{{ page.title }} - TumbleNet</title>
 
-		<base href="{{ site.url }}">
-
 		<!-- CSS  -->
-		<link href="/min/plugin-min.css" type="text/css" rel="stylesheet">
-		<link href="/min/custom-min.css" type="text/css" rel="stylesheet" >
+		<link href="{{ site.url }}/min/plugin-min.css" type="text/css" rel="stylesheet">
+		<link href="{{ site.url }}/min/custom-min.css" type="text/css" rel="stylesheet" >
 	</head>
 <body id="top" class="scrollspy">
 
@@ -34,17 +32,17 @@ layout: null
             <div class="nav-wrapper">
 	    	<a href="#" id="logo-container" class="brand-logo"><img src="https://lh3.googleusercontent.com/HEm8NfJyvP00_GH9CeIVjCBlqgWqDeGvP4NWXqc9DzawRQVbpC3WqeUtHooTE3ag0h78Fn2jfPzjMDaZ_IhCgSfY3XSfZIv_pL1_MKORKiEyF6U2XYklhOnmtxtAo5pTSSAombbmjy3Oi0uhmhlQNIz62JqONicWLNn6F6RSc_6j8qEi24ip4xRmndmz-113Amhwruk2UIrwg8MQqafmhY33UJIRl_HqFsglcGVwa7mipA_JPKqLg8GsdNBe4ukngqodlUrz48HSIVjQ-kj_sh_FiJ9LvG7LfR0XT9OEuWBPZSnf5O22GEhT51YXH5H2f5F7lfdqMTG1nsEgxcjwXUVbrFMRaaubSYzYE3tLJqV1sRSPSkOLbhvWo7ywemfQDhiblOBi8_BofK0ZjwzOB8mx_JYdxSopcbCyckH39Y-ph5ncj8ziYXs8C9fTxOdakOL9iLZweReQVkqc4yK_SMj17IzV60tpqoo5vs-NEJxh4duqZXOieFhrSI-ZhJCpmqaK_6zBj0LUwSiWQHkpJNAgw2pKh-Yy9F3V1QOOWcWGwAh_BowqYvBsGRMe2VLfgu-BFRiksW7gLaO7KHUywgXOWwqkrvP_bcNbS6V6Z9X85bt3=w1366-h29-no"></img></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="/#top">Home</a></li>
-                    <li><a href="/#about">About</a></li>
+                    <li><a href="{{ site.url }}/#top">Home</a></li>
+                    <li><a href="{{ site.url }}/#about">About</a></li>
                     <li><a href="http://blog.tumblenet.cu.cc">Blog</a></li>
-                    <li class="active"><a href="/subscribe.html">Get Updates</a></li>
+                    <li class="active"><a href="{{ site.url }}/subscribe.html">Get Updates</a></li>
                     <li><a href="http://beta.tumblenet.cu.cc">Beta</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
-                    <li><a href="/#top">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="/http://blog.tumblenet.cu.cc">Blog</a></li>
-                    <li class="active"><a href="/subscribe">Get Updates</a></li>
+                    <li><a href="{{ site.url }}/#top">Home</a></li>
+                    <li><a href="{{ site.url }}/#about">About</a></li>
+                    <li><a href="{{ site.url }}/http://blog.tumblenet.cu.cc">Blog</a></li>
+                    <li class="active"><a href="{{ site.url }}/subscribe">Get Updates</a></li>
                     <li><a href="http://beta.tumblenet.cu.cc">Beta</a></li>
                 </ul>
             	<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
@@ -63,7 +61,7 @@ layout: null
             <div class="col l3 s12">
                 <h5 class="white-text">TumbleNet</h5>
                 <ul>
-                    <li><a class="white-text" href="/">Home</a></li>
+                    <li><a class="white-text" href="{{ site.url }}/">Home</a></li>
                     <li><a class="white-text" href="http://blog.tumblenet.tk">Blog</a></li>
                 </ul>
             </div>
@@ -93,8 +91,8 @@ layout: null
 
 
     <!--  Scripts-->
-    <script src="/min/plugin-min.js"></script>
-    <script src="/min/custom-min.js"></script>
+    <script src="{{ site.url }}/min/plugin-min.js"></script>
+    <script src="{{ site.url }}/min/custom-min.js"></script>
 
     </body>
 </html>
